@@ -1,0 +1,13 @@
+{
+  "name": "emma-exposed",
+  "authors": [
+    "Ben Shymkiw <ben@t.apio.ca>"
+  ],
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6",
+    "angular": "~1.4.8",
+    "requirejs": "~2.1.22",
+    "font-awesome": "~4.5.0"
+  }
+}
