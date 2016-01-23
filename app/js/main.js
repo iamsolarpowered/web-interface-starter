@@ -3,10 +3,8 @@ var magic = {
     require(this.files, callback || this.callback);
   },
   callback: function() {
-    console.log('%c' + magic.message, magic.prettiness);
+    console.log('✨ Scripts loaded ✨');
   },
-  message: '✨ Scripts loaded ✨',
-  prettiness: 'background: indigo; color: white; font-size: 160%; font-family: fantasy; padding: 0.33em 5em 0 5em; border-radius: 1.33em;',
   files: [
     'config/bower',
     'config/app',
