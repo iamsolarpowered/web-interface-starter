@@ -10,7 +10,7 @@ var magic = {
   files: [
     'config/bower',
     'config/app',
-    'directives/example'
+    'directives/greeting'
   ]
 };
 
