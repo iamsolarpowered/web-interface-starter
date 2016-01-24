@@ -8,7 +8,7 @@ var magic = {
   files: [
     'config/bower',
     'config/app',
-    'directives/greeting'
+    'routes'
   ]
 };
 

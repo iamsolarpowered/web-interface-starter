@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 
   <head>
     <title>TODO: Title</title>
@@ -11,10 +11,8 @@
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
 
-  <body ng-app="app">
-    <div class="container">
-      <greeting></greeting>
-    </div>
+  <body>
+    <div ng-view class="container"></div>
   </body>
 
 </html>
