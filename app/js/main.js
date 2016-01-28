@@ -1,5 +1,5 @@
-(function() {
-  console.time('Application bootstrapped');
+(function(timerLabel) {
+  console.time(timerLabel);
 
   require([
 
@@ -11,9 +11,8 @@
 
     angular.element(document).ready(function() {
       angular.bootstrap(document, ['app']);
-      console.timeEnd('Application bootstrapped');
+      console.timeEnd(timerLabel);
     });
 
   });
-
-})();
+})('Application bootstrapped');
