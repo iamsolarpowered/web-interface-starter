@@ -12,7 +12,7 @@
     files: [
       'config/bower',
       'config/app',
-      'routes'
+      'config/routes'
     ]
   };
 
