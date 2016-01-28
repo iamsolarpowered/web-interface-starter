@@ -1,19 +1,19 @@
 (function() {
   console.time('Application bootstrapped');
 
-  var modules = [
+  require([
+
     'config/bower',
     'config/app',
     'config/routes'
-  ];
 
-  require(modules, bootstrapAngular);
+  ], function() {
 
-  function bootstrapAngular(callback) {
     angular.element(document).ready(function() {
       angular.bootstrap(document, ['app']);
+      console.timeEnd('Application bootstrapped');
     });
-  }
 
-  console.timeEnd('Application bootstrapped');
+  });
+
 })();
