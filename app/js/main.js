@@ -15,4 +15,4 @@
     });
 
   });
-})('Application bootstrapped');
+})('✨');
