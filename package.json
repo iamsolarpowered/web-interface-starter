@@ -4,6 +4,7 @@
   "private": true,
   "author": "Ben Shymkiw <ben@t.apio.ca>",
   "scripts": {
+    "deploy": "./bin/deploy.sh",
     "install": "./node_modules/.bin/bower install",
     "start": "./node_modules/.bin/gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
