@@ -1,0 +1,2 @@
+- [ ] Minify Javascript and CSS
+- [ ] Setup test suite
